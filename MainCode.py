@@ -6,7 +6,7 @@ import re
 import random
 from nltk import ngrams
 from scipy.cluster.hierarchy import linkage, fcluster
-
+# The code was partially written together with another student Vlad Miron (523152)
 file_path = "//Users/lorenzkremer/Documents/TVs-all-merged.json"
 
 
