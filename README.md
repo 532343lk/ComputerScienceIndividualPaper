@@ -1,5 +1,6 @@
 # ComputerScienceIndividualPaper
 
+The code was partially written together with another student Vlad Miron (523152)
 
 This code gives the implementation of our version of the MSMP(+) model. We start by extracting model words from the data representation using 2 regexes. Then we create a binary matrix with model words as rows and products as columns. We shorten this matrix using the minhash technique, and then perform LSH to find candidate pairs. Finally, we run a complete linkage hierarchical clustering on the dissimilarity matrix between all products to find teh predicted candidates.
 
